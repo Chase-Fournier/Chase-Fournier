@@ -1,56 +1,59 @@
-
 <p align="center">
     <img src="https://preview.redd.it/2-300-4k-upscaled-and-native-wallpapers-screenshots-from-v0-gkcpf7po698e1.png?width=2384&format=png&auto=webp&s=957afc39db867a51676e696b844b85cf63608da9" alt="Banner">
 </p>
 
-## 🚀 About Me
+## About Me
 
-- 👋 Hi, I’m **@warforged5**
-- 👀 I’m interested in building **mobile applications, designing websites, learning as much as possible, and networking to find internships/Co-ops.**
-- 🌱 I’m currently working on **API's and JavaScript**
-- 💞️ I’m looking to **collaborate on anything, just message me and I would love to work and learn whatever**
-- 📫 How to reach me: **Friend me on discord: warforged**
-- 👯 I’m looking to collaborate on **Any sort of App**.
-- 🤔 I’m looking for help with **UX and UI design**.
-- 💬 Ask me about **Flutter/Dart**.
-- ⚡ Fun fact: **In 1936, Russia built a computer that ran on water named 'The Water Integrator'. The Soviet Union was wild.**
+- 👋 Hi, I'm **Chase** (`@warforged5`) — CS student at the University of Maryland
+- 🛠 Tech Lead on the Long-Term Success team at **Hack4Impact-UMD**
+- 💼 Integrations & R&D at **Osa Commerce** (Magento, NetSuite, Shopify, UC3, EDI)
+- 🌱 Currently learning: multithreaded C, Kotlin Multiplatform internals, GraphQL at scale
+- 💞 Always down to **collaborate** — message me about any app idea you've got
+- 💬 Ask me about **Flutter, Kotlin Multiplatform, or commerce integrations**
+- ⚡ Fun fact: in 1936, the Soviets built a computer that ran on **water** — "The Water Integrator." Wild.
 
 ---
 
-## 🛠️ My Tech Stack
+## Tech Stack
 
-<p align="left">
-  <a href="https://flutter.dev/" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/color/512/flutter.png" alt="Flutter" width="40" height="40"/>
-  </a>
-  <a href="https://dart.dev/" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/color/512/dart.png" alt="dart" width="40" height="40"/>
-  </a>
-    <a href="https://kotlinlang.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/color/512/kotlin.png" alt="kotlin" width="40" height="40"/>
-  </a>
-    </a>
-    <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/color/512/python.png" alt="python" width="40" height="40"/>
-  </a>
-    <a href="https://nodejs.org/en" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/color/512/javascript.png" alt="javascipt" width="40" height="40"/>
-  </a>
-    <a href="https://www.java.com/en/" target="_blank" rel="noreferrer">
-    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png" alt="java" width="40" height="40"/>
-  </a>
-</p>
+**Languages**
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+**Frameworks & Tools**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpackcompose&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+![Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=flat&logo=archlinux&logoColor=white)
 
 ---
 
-## 📊 My GitHub Stats
+## Featured Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[PNAA](https://github.com/Hack4Impact-UMD/new-philippine-nurses-association-of-america)** | A Management app for the Philippine Nurses Association of America | Next.js, Firebase |
+| **[CampStarfish](https://github.com/Hack4Impact-UMD/camp-starfish)** | Scheduling and Photo managment portal for Camp Starfish | Tanstack, Firebase |
+| **[JupiTerp](https://github.com/warforged5/JupiTerp)** | Course scheduler for UMD students with shareable schedule encoding | Kotlin Multiplatform, Compose |
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="center" src="https://githubcard.com/Chase-Fournier.svg?d=wd9xm03k" alt="Your GitHub Stats" />
   </a>
 </p>
-
 
 ---
 
@@ -60,8 +63,9 @@
   <a href="https://www.linkedin.com/in/chase-fournier-157743303/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
 
-<!---
-warforged5/warforged5 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<sub align="center">Open to SWE internships & co-ops — Email me</sub>
