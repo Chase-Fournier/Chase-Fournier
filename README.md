@@ -4,7 +4,7 @@
 
 ## About Me
 
-- 👋 Hi, I'm **Chase** (`@warforged5`) — CS student at the University of Maryland
+- 👋 Hi, I'm **Chase** (`@Chase-Fournier`) — CS student at the University of Maryland
 - 🛠 Tech Lead on the Long-Term Success team at **Hack4Impact-UMD**
 - 💼 Integrations & R&D at **Osa Commerce** (Magento, NetSuite, Shopify, UC3, EDI)
 - 🌱 Currently learning: multithreaded C, Kotlin Multiplatform internals, GraphQL at scale
