@@ -44,7 +44,7 @@
 |---|---|---|
 | **[PNAA](https://github.com/Hack4Impact-UMD/new-philippine-nurses-association-of-america)** | A Management app for the Philippine Nurses Association of America | Next.js, Firebase |
 | **[CampStarfish](https://github.com/Hack4Impact-UMD/camp-starfish)** | Scheduling and Photo managment portal for Camp Starfish | Tanstack, Firebase |
-| **Jupiterp** | Course scheduler for UMD students with shareable schedule encoding | Kotlin Multiplatform, Compose |
+| **[Jupiterp](https://github.com/Chase-Fournier/JupiterpMobile)** | Course scheduler for UMD students with shareable schedule encoding | Kotlin Multiplatform, Compose |
 ---
 
 ## 📊 GitHub Stats
