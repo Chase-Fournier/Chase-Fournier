@@ -10,7 +10,7 @@
 - 🌱 Currently learning: multithreaded C, Kotlin Multiplatform internals, GraphQL at scale
 - 💞 Always down to **collaborate** — message me about any app idea you've got
 - 💬 Ask me about **Flutter, Kotlin Multiplatform, or commerce integrations**
-- ⚡ Fun fact: in 1936, the Soviets built a computer that ran on **water** — "The Water Integrator." Wild.
+- ⚡ Fun fact: in 1936, the Soviets built a computer that ran on **water** named the "The Water Integrator." the USSR was wild.
 
 ---
 
@@ -42,9 +42,11 @@
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[PNAA](https://github.com/Hack4Impact-UMD/new-philippine-nurses-association-of-america)** | A Management app for the Philippine Nurses Association of America | Next.js, Firebase |
+| **[PNAA](https://github.com/Hack4Impact-UMD/new-philippine-nurses-association-of-america)** | A Management app for the Philippine Nurses Association of America | Next.js, Firebase, Supabase|
 | **[CampStarfish](https://github.com/Hack4Impact-UMD/camp-starfish)** | Scheduling and Photo managment portal for Camp Starfish | Tanstack, Firebase |
 | **[Jupiterp](https://github.com/Chase-Fournier/JupiterpMobile)** | Course scheduler for UMD students with shareable schedule encoding | Kotlin Multiplatform, Compose |
+| **[NHS APP](https://github.com/Chase-Fournier/webnhs)** | Front end of the Honor Society Hour Tracker, code is private for now | Flutter Supabase |
+
 ---
 
 ## 📊 GitHub Stats
