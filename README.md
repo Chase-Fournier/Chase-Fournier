@@ -38,7 +38,7 @@
 
 ---
 
-## Featured Projects
+## Production / Deployed Projects
 
 | Project | What it is | Stack |
 |---|---|---|
