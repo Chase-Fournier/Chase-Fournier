@@ -30,8 +30,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_LOGIN: Chase-Fournier
-          # upstream projects you contribute to (own forks are skipped to avoid double counting)
-          EXTRA_REPOS: atcupps/Jupiterp,Hack4Impact-UMD/new-philippine-nurses-association-of-america,Hack4Impact-UMD/camp-starfish
+          EXTRA_REPOS: atcupps/Jupiterp,Hack4Impact-UMD/new-philippine-nurses-association-of-america,Hack4Impact-UMD/camp-starfish,Hack4Impact-UMD/childrens-cancer-foundation
 
       - name: Commit if anything changed
         run: |
