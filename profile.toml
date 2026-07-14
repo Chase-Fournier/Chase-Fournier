@@ -1,0 +1,81 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# profile.toml — everything shown on terminal.svg lives in this file.
+#
+# To change the card: edit this file, then either
+#   • run  python build_svg.py  locally, or
+#   • just commit + push — the GitHub Action rebuilds terminal.svg for you.
+#
+# Values are plain text. Optional color spans inside any value:
+#   {g}green{/}   {r}red{/}   {d}dim grey{/}   {c}cyan{/}
+#
+# Each line must fit the card (label + dots + value ≈ 78 characters).
+# If a value is too long, build_svg.py fails with exactly how much to trim.
+# ──────────────────────────────────────────────────────────────────────────────
+
+title = "chase@fournier"          # header line, top right
+tag   = "[ chase.fournier ]"      # small caption under the ASCII art
+
+# ASCII art, one string per line. Swap in any monospace art you like —
+# it is auto-centered vertically and the caption follows it.
+art = [
+  " ██████╗  ███████╗",
+  "██╔════╝  ██╔════╝",
+  "██║       █████╗  ",
+  "██║       ██╔══╝  ",
+  "╚██████╗  ██║     ",
+  " ╚═════╝  ╚═╝     ",
+]
+
+# Optional palette overrides — uncomment and tweak any of these:
+# [colors]
+# background = "#0b0b14"
+# border     = "#232640"
+# cyan       = "#28f2e4"   # labels, prompt, art
+# magenta    = "#ff2ea6"   # glitch ghost behind the art
+# orange     = "#ffab70"   # values
+# dim        = "#4c5470"   # dot leaders, rules
+# muted      = "#8891b0"   # section names
+# green      = "#5dff8f"
+# red        = "#ff5c7a"
+
+[[sections]]                      # the first block has no header rule
+fields = [
+  ["OS",     "Omarchy (Arch + Hyprland) · CachyOS · Android"],
+  ["Host",   "ASUS Zenbook S14"],
+  ["Kernel", "CS @ University of Maryland · Class of 2028"],
+  ["Shell",  "Osa Commerce — Integrations & R&D"],
+  ["Init",   "Tech Lead @ Hack4Impact-UMD · LTS team"],
+]
+
+[[sections]]
+name = "Languages"
+fields = [
+  ["Languages.Code",       "Kotlin, Dart, TypeScript, Java, C, Python"],
+  ["Languages.Frameworks", "Flutter, Compose MP, React, Node, GraphQL"],
+  ["Languages.Commerce",   "Magento, NetSuite, Shopify, UC3, EDI"],
+  ["Now.Learning",         "multithreaded C, KMP internals, GraphQL at scale"],
+]
+
+[[sections]]
+name = "Hobbies"
+fields = [
+  ["Hobbies.Software", "Linux ricing, self-hosted n8n, KMP side quests"],
+  ["Hobbies.Hardware", "3D printing, BC-250 console-APU HTPC"],
+  ["Hobbies.Offline",  "woodworking, pickleball, running, Model UN"],
+]
+
+[[sections]]
+name = "Contact"
+fields = [
+  ["Email",    "[REDACTED] {d}// classified, for now{/}"],
+  ["LinkedIn", "in/chase-fournier-157743303"],
+  ["GitHub",   "Chase-Fournier"],
+]
+
+[[sections]]
+name = "GitHub Stats"
+auto_stats = true                 # inserts the self-updating Repos / Commits / Lines.of.Code rows
+fields = [
+  ["Users.Served", "35,000+ ( {g}JupiTerp++{/} )"],
+  ["Status",       "{g}open to SWE internships & co-ops{/}"],
+]

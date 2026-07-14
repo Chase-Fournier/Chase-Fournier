@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 608" width="940" height="608" role="img" aria-label="chase@fournier — terminal profile card">
+  <style>
+    .mono   { font-family: ui-monospace, 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, monospace; }
+    .cfart  { font-size: 23px; }
+    .info   { font-size: 12.5px; fill: #b6bfe2; }
+    .cf     { fill: #28f2e4; }
+    .ghost  { fill: #ff2ea6; opacity: .5; }
+    .prompt { fill: #28f2e4; font-weight: bold; }
+    .label  { fill: #28f2e4; }
+    .value  { fill: #ffab70; }
+    .muted  { fill: #8891b0; }
+    .dim    { fill: #4c5470; }
+    .ok     { fill: #5dff8f; }
+    .bad    { fill: #ff5c7a; }
+    .cursor { fill: #28f2e4; animation: blink 1.1s steps(1) infinite; }
+    .glitch { animation: flicker 6s steps(1) infinite; }
+    @keyframes blink   { 50% { opacity: 0; } }
+    @keyframes flicker {
+      0%,91%,94%,100% { transform: translate(0,0); opacity:.5; }
+      92%             { transform: translate(-3px,2px); opacity:.75; }
+      93%             { transform: translate(4px,-2px); opacity:.3;  }
+    }
+    @media (prefers-reduced-motion: reduce) { .cursor, .glitch { animation: none; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="939" height="607" rx="8" fill="#0b0b14" stroke="#232640" stroke-width="1"/>
+
+  <g class="mono glitch" transform="translate(-3,2)">
+    <text xml:space="preserve" class="cfart ghost" x="32" y="248.0"> ██████╗  ███████╗</text>
+    <text xml:space="preserve" class="cfart ghost" x="32" y="271.0">██╔════╝  ██╔════╝</text>
+    <text xml:space="preserve" class="cfart ghost" x="32" y="294.0">██║       █████╗  </text>
+    <text xml:space="preserve" class="cfart ghost" x="32" y="317.0">██║       ██╔══╝  </text>
+    <text xml:space="preserve" class="cfart ghost" x="32" y="340.0">╚██████╗  ██║     </text>
+    <text xml:space="preserve" class="cfart ghost" x="32" y="363.0"> ╚═════╝  ╚═╝     </text>
+  </g>
+  <g class="mono">
+    <text xml:space="preserve" class="cfart cf" x="32" y="248.0"> ██████╗  ███████╗</text>
+    <text xml:space="preserve" class="cfart cf" x="32" y="271.0">██╔════╝  ██╔════╝</text>
+    <text xml:space="preserve" class="cfart cf" x="32" y="294.0">██║       █████╗  </text>
+    <text xml:space="preserve" class="cfart cf" x="32" y="317.0">██║       ██╔══╝  </text>
+    <text xml:space="preserve" class="cfart cf" x="32" y="340.0">╚██████╗  ██║     </text>
+    <text xml:space="preserve" class="cfart cf" x="32" y="363.0"> ╚═════╝  ╚═╝     </text>
+  </g>
+  <text class="mono info dim" x="156" y="397.5" text-anchor="middle">[ chase.fournier ]</text>
+
+  <g class="mono">
+    <text xml:space="preserve" class="info" x="318" y="52.5"><tspan class="prompt">chase@fournier</tspan><tspan class="dim"> ───────────────────────────────────────────────────────────────</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="70.0"><tspan class="label">OS: </tspan><tspan class="dim">............................</tspan><tspan> </tspan><tspan class="value">Omarchy (Arch + Hyprland) · CachyOS · Android</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="87.5"><tspan class="label">Host: </tspan><tspan class="dim">.......................................................</tspan><tspan> </tspan><tspan class="value">ASUS Zenbook S14</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="105.0"><tspan class="label">Kernel: </tspan><tspan class="dim">..........................</tspan><tspan> </tspan><tspan class="value">CS @ University of Maryland · Class of 2028</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="122.5"><tspan class="label">Shell: </tspan><tspan class="dim">.....................................</tspan><tspan> </tspan><tspan class="value">Osa Commerce — Integrations &amp; R&amp;D</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="140.0"><tspan class="label">Init: </tspan><tspan class="dim">.................................</tspan><tspan> </tspan><tspan class="value">Tech Lead @ Hack4Impact-UMD · LTS team</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="175.0"><tspan class="dim">─ </tspan><tspan class="muted">Languages</tspan><tspan class="dim"> ──────────────────────────────────────────────────────────────────</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="192.5"><tspan class="label">Languages.Code: </tspan><tspan class="dim">....................</tspan><tspan> </tspan><tspan class="value">Kotlin, Dart, TypeScript, Java, C, Python</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="210.0"><tspan class="label">Languages.Frameworks: </tspan><tspan class="dim">..............</tspan><tspan> </tspan><tspan class="value">Flutter, Compose MP, React, Node, GraphQL</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="227.5"><tspan class="label">Languages.Commerce: </tspan><tspan class="dim">.....................</tspan><tspan> </tspan><tspan class="value">Magento, NetSuite, Shopify, UC3, EDI</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="245.0"><tspan class="label">Now.Learning: </tspan><tspan class="dim">...............</tspan><tspan> </tspan><tspan class="value">multithreaded C, KMP internals, GraphQL at scale</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="280.0"><tspan class="dim">─ </tspan><tspan class="muted">Hobbies</tspan><tspan class="dim"> ────────────────────────────────────────────────────────────────────</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="297.5"><tspan class="label">Hobbies.Software: </tspan><tspan class="dim">.............</tspan><tspan> </tspan><tspan class="value">Linux ricing, self-hosted n8n, KMP side quests</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="315.0"><tspan class="label">Hobbies.Hardware: </tspan><tspan class="dim">.......................</tspan><tspan> </tspan><tspan class="value">3D printing, BC-250 console-APU HTPC</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="332.5"><tspan class="label">Hobbies.Offline: </tspan><tspan class="dim">..................</tspan><tspan> </tspan><tspan class="value">woodworking, pickleball, running, Model UN</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="367.5"><tspan class="dim">─ </tspan><tspan class="muted">Contact</tspan><tspan class="dim"> ────────────────────────────────────────────────────────────────────</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="385.0"><tspan class="label">Email: </tspan><tspan class="dim">.....................................</tspan><tspan> </tspan><tspan class="value">[REDACTED] </tspan><tspan class="dim">// classified, for now</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="402.5"><tspan class="label">LinkedIn: </tspan><tspan class="dim">........................................</tspan><tspan> </tspan><tspan class="value">in/chase-fournier-157743303</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="420.0"><tspan class="label">GitHub: </tspan><tspan class="dim">.......................................................</tspan><tspan> </tspan><tspan class="value">Chase-Fournier</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="455.0"><tspan class="dim">─ </tspan><tspan class="muted">GitHub Stats</tspan><tspan class="dim"> ───────────────────────────────────────────────────────────────</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="472.5"><tspan class="label">Repos: </tspan><tspan id="dots_repos" class="dim">........................................................</tspan><tspan> </tspan><tspan id="repos" class="value">…</tspan><tspan class="dim">  |  </tspan><tspan class="label">Stars: </tspan><tspan id="stars" class="value">…</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="490.0"><tspan class="label">Commits: </tspan><tspan id="dots_commits" class="dim">..................................................</tspan><tspan> </tspan><tspan id="commits" class="value">…</tspan><tspan class="dim">  |  </tspan><tspan class="label">Followers: </tspan><tspan id="followers" class="value">…</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="507.5"><tspan class="label">Lines.of.Code: </tspan><tspan id="dots_loc" class="dim">...............................................</tspan><tspan> </tspan><tspan id="loc" class="value">…</tspan><tspan class="dim">  ( </tspan><tspan id="loc_add" class="ok">…++</tspan><tspan class="dim">, </tspan><tspan id="loc_del" class="bad">…--</tspan><tspan class="dim"> )</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="525.0"><tspan class="label">Users.Served: </tspan><tspan class="dim">.........................................</tspan><tspan> </tspan><tspan class="value">35,000+ ( </tspan><tspan class="ok">JupiTerp++</tspan><tspan class="value"> )</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="542.5"><tspan class="label">Status: </tspan><tspan class="dim">.....................................</tspan><tspan> </tspan><tspan class="ok">open to SWE internships &amp; co-ops</tspan></text>
+    <text xml:space="preserve" class="info" x="318" y="577.5"><tspan class="prompt">❯ </tspan><tspan class="cursor">▮</tspan></text>
+  </g>
+</svg>
