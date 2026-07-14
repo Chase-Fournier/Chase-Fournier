@@ -24,3 +24,4 @@
 </p>
 
 <sub align="center">Open to SWE internships & co-ops — Email me</sub>
+ 
