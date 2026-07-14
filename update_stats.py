@@ -18,6 +18,8 @@ import requests
 
 TOKEN = os.environ["GH_TOKEN"]
 LOGIN = os.environ.get("GH_LOGIN", "Chase-Fournier")
+# extra logins whose commits also count as yours (e.g. an old account)
+LOGINS = {LOGIN.lower()} | {s.strip().lower() for s in os.environ.get("ALT_LOGINS", "").split(",") if s.strip()}
 EXTRA = [s.strip() for s in os.environ.get("EXTRA_REPOS", "").split(",") if s.strip()]
 SVG = os.environ.get("SVG_PATH", "terminal.svg")
 
@@ -71,15 +73,20 @@ for full_name in scan:
     if not data:
         print(f"  skip {full_name} (status {r.status_code})")
         continue
+    repo_c = repo_a = repo_d = 0
     for contributor in data:
         author = contributor.get("author") or {}
-        if author.get("login", "").lower() != LOGIN.lower():
+        if author.get("login", "").lower() not in LOGINS:
             continue
-        commits += contributor["total"]
+        repo_c += contributor["total"]
         for week in contributor["weeks"]:
-            additions += week["a"]
-            deletions += week["d"]
-    print(f"  scanned {full_name}")
+            repo_a += week["a"]
+            repo_d += week["d"]
+    commits += repo_c
+    additions += repo_a
+    deletions += repo_d
+    # per-repo audit line — compare against the repo's Insights > Contributors graph
+    print(f"  {full_name}: commits={repo_c} +{repo_a:,} / -{repo_d:,}")
 
 loc = additions - deletions
 
