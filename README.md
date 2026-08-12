@@ -13,7 +13,7 @@
 | **[JupiTerp](https://github.com/atcupps/Jupiterp)** | Course scheduler for UMD students with shareable schedule encoding | Svelete, Supabase |
 | **[NHS APP](https://github.com/Chase-Fournier/honor_society_hour_tracker)** | Hour, Event, Meeting, and Communication for Honor Societies | Flutter Supabase |
 
-## 🤝 Let's Connect
+## 🤝 Let's Connect 
 
 <p align="center">
   <a href="https://www.linkedin.com/in/chase-fournier-157743303/">
