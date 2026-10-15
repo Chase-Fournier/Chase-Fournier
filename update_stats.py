@@ -53,6 +53,15 @@ stars = sum(r["stargazers_count"] for r in repos)
 # forks are skipped so commits that also live upstream aren't counted twice.
 scan = [r["full_name"] for r in repos if not r["fork"]] + EXTRA
 
+# count stars from EXTRA_REPOS too (not just owned repos); skip any we
+# can't see (e.g. a private repo the token has no access to)
+for full_name in EXTRA:
+    r = requests.get(f"{API}/repos/{full_name}", headers=HEADERS, timeout=30)
+    if r.status_code == 200:
+        stars += r.json()["stargazers_count"]
+    else:
+        print(f"  skip stars for {full_name} (status {r.status_code})")
+
 # --------------------------------------------------------------- followers --
 followers = gh(f"{API}/users/{LOGIN}")["followers"]
 
